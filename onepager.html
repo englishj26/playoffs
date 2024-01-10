@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #2E5266;
+  color: #9FB1BC;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #E2C044;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #E2C044;
+  color: whitesmoke;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+color: whitesmoke; 
+background-color: #D3D0CB;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #D3D0CB;
+  padding-left: 20px;
+  color: whitesmoke; 
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #6E8898;
+  padding: 20px;
+  margin-top: 20px;
+  color: whitesmoke; 
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+  color: whitesmoke; 
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #7F534B;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Division III High School Football playoffs</h1>
+  <p>2023</p>
+</div>
+Top 3
+<div class="topnav">
+  <a href="https://www.maxpreps.com/ma/milford/milford-scarlet-hawks/football/">1. Milford</a>
+  <a href="https://www.maxpreps.com/ma/walpole/walpole-timberwolves/football/">2. walpole</a>
+  <a href="https://www.maxpreps.com/ma/milton/milton-wildcats/football/">3. Milton</a>
+  <a href="https://www.maxpreps.com/ma/football/23-24/division/division-3/rankings/1/?statedivisionid=0897b39e-b243-48d4-a0fd-4abe4cbb1bb2" style="float:right">Rankings</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Playoff Bracket sweet 16 2023</h2>
+     <img src="images/standings.jpeg" height="600px" width="1200">
+      
+    </div>
+    <div class="card">
+     
+      <h2>Playoff Bracket sweet 16 2022</h2>
+      <img src="images/2022.jpg" width="1200">
+      
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Regular Season</h2> <img src="images/standings.png" height="400px" width="400">
+    
+      
+      <p>Top 20 Teams in Division 3 for the 2023 Season</p>
+    </div>
+    <div class="card">
+      <h3>Walpole High School</h3>
+      <img src="images/download.jpg" height="400px" width="400">
+      <p>Coach Chris Sullivan leader walpole to highest seed in 8 years. After a sad loss to Hanover 40-37 which ended last years very promising and hopful year Walpole football improved for last year with the best point differential while having the highest strenght of schedual </p>
+    </div>
+   
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Jack WHS webdesign class p5 2023</h2>
+</div>
+
+</body>
+</html>
+
+
